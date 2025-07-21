@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Cross-Chain Wallet Activity Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A multi-wallet, multi-chain blockchain activity tracker that enables users to monitor wallet transactions, token transfers, and on-chain activity across different layer-1 and layer-2 networks in real-time.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Multi-Wallet Support:** Add and track multiple wallet addresses simultaneously.
+- **Cross-Chain Compatibility:** Supports popular networks like Ethereum, Polygon, Avalanche, and more.
+- **Real-Time Data:** Fetches live on-chain activity including transactions, token transfers, and balances.
+- **User-Friendly Interface:** Clean and intuitive UI for easy navigation and wallet management.
+- **Customizable Views:** Filter and sort wallet activity by date, type, or network.
+- **Dark Mode Support:** Built-in theme toggle for dark and light modes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/cross-chain-wallet-activity-explorer.git
+   cd cross-chain-wallet-activity-explorer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
+# or
+yarn install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
+# or
+yarn start
 
-### `npm run eject`
+Open http://localhost:3000 to view the app in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Usage
+Enter one or more wallet addresses to start tracking.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Select the blockchain network(s) you want to monitor.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+View detailed transaction history, token balances, and activity logs.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Use filters to customize your view.
 
-## Learn More
+Toggle between light and dark modes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Technologies Used
+React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Web3.js / Ethers.js (for blockchain interactions)
 
-### Code Splitting
+REST APIs / GraphQL (for on-chain data fetching)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Styled-components / CSS Modules (for styling)
 
-### Analyzing the Bundle Size
+Recharts or similar (for visualizing data)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
 
-### Making a Progressive Web App
+License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+For questions or feedback, please reach out to X: @bilenls or open an issue on GitHub.
